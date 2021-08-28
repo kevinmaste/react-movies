@@ -9,5 +9,8 @@ export const useStyles = makeStyles((theme) => ({
     },
     paper_style:{
         textAlign:"center",
+    },
+    dis_lik:{
+        display:"flex",
     }
 }))
