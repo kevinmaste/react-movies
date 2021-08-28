@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect} from 'react';
 import {Grid} from "@material-ui/core";
 import Moviecard from "./moviecard";
 //import Pagination from "react-js-pagination";

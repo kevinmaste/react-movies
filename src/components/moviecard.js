@@ -1,5 +1,5 @@
-import React, {useState} from 'react';
-import {Button, Card, CardActions, CardContent, IconButton, LinearProgress, Typography} from "@material-ui/core";
+import React from 'react';
+import {Button, Card, CardActions, CardContent, LinearProgress, Typography} from "@material-ui/core";
 import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAlt';
 import ThumbDownAltIcon from '@material-ui/icons/ThumbDownAlt';
 import {useStyles} from "./styles";
