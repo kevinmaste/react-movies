@@ -12,5 +12,11 @@ export const useStyles = makeStyles((theme) => ({
     },
     dis_lik:{
         display:"flex",
-    }
+    },
+    paginate:{
+        display:"flex",
+        justifyContent:"space-around",
+        listStyleType:'none',
+    },
+
 }))

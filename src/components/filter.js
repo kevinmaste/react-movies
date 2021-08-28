@@ -36,8 +36,8 @@ const Filter = ({values}) => {
                     >
                         {/*put somme tab for put the category*/}
                         <option value="" />
-                        {values.map((category)=>(
-                            <option value={category.category}>{category.category}</option>
+                        {values.map((category,i)=>(
+                            <option key={i} value={category.category}>{category.category}</option>
                         ))}
                     </Select>
                 </FormControl>
